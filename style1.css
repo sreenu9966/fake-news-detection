@@ -1,0 +1,68 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f8f8f8;
+	background-image: url('arti.jpg');
+	margin: 0;
+	padding: 0;
+	color: #555;
+}
+.container {
+	max-width: 700px;
+	max-height: 800px;
+	margin:50px auto 0;
+	padding: 15px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	background-color: #000000;
+	border-radius: 10px;
+	opacity:0.75;
+}
+h1, h2, label, p {
+	color:rgb(255, 153, 0);
+	font-weight: bolder;
+}
+h1 {
+	text-align: center;
+	font-size: 48px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+p {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+textarea {
+	width: 100%;
+	padding: 10px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: none;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	font-size: 16px;
+	color: #555;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+input[type="submit"] {
+	background-color: #FF5733;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 15px 30px;
+	cursor: pointer;
+	transition: background-color 0.5s;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+input[type="submit"]:hover {
+	background-color: #be1257;
+}

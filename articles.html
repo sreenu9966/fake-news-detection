@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Article Input Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+</head>
+<body>
+	<div class="container">
+		<h1>Fake Detect:A Deep Learining Ensemble Model For Fake News Detection</h1>
+		<form method="post" action="{{ url_for('results') }}">
+			<h2>Title:</h2>
+			<input type="text" id="title" name="title" placeholder="Enter title of your Text...">
+			<h2>Text:</h2>
+			<textarea id="Text" name="text" placeholder="Enter News content..."></textarea>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
